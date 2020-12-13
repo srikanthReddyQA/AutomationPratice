@@ -14,9 +14,6 @@ Feature: To verify Practice Page in rahulshatty academy
   Scenario Outline: To verify gmail functionality
     Given  open the browser "<Browser>" and launch the gmail application
     When user enter the username"<Username>" and Password "<Password>"
-
-
-
     And click on login button
     Then User should navigate to Gmail home screen
 

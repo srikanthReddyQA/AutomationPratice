@@ -80,7 +80,7 @@ public class Util extends ComnVab {
 		
 
 		if ("chrome".equals(browser.toLowerCase())) {
-			System.setProperty("webdriver.chrome.driver", "src\\test\\drivers\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\drivers\\chromedriver.exe");
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("start-maximized");
 			options.setExperimentalOption("useAutomationExtension", false);

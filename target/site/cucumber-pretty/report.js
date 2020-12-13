@@ -78,13 +78,3 @@ formatter.step({
   "name": "click on login button",
   "keyword": "And "
 });
-formatter.match({
-  "location": "MyStepdefs.clickOnLoginButton()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User should navigate to Gmail home screen",
-  "keyword": "Then "
-});
