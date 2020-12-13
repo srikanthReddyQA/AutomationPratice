@@ -98,6 +98,7 @@ public class Util extends ComnVab {
 
 		} else {
 			System.out.println("No browser found");
+			System.out.println("No");
 		}
 		
 		return Tempdriver;	
